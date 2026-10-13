@@ -1,0 +1,10 @@
+{
+  "name": "leadloop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Leadloop CRM workspace",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check app.js && node --check server.js && node --check db.js"
+  }
+}
